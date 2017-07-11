@@ -1,0 +1,6 @@
+[ 2017-07-07T19:37:54+08:00 ] 127.0.0.1 /thinkphp5/index.php/verify/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载模块:Verify
+

@@ -1,0 +1,121 @@
+[ 2017-07-09T16:04:38+08:00 ] 127.0.0.1 /thinkphp5/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-07-09T16:04:53+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/email/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+ERR: Class 'Home\Controller\smtp' not found
+
+[ 2017-07-09T16:12:03+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/email/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [2] mb_strlen(): Unknown encoding &quot;&quot; D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 2546 行.
+NOTIC: [2] mb_strlen(): Unknown encoding &quot;&quot; D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 2581 行.
+NOTIC: [2] mb_strlen(): Unknown encoding &quot;&quot; D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 2546 行.
+NOTIC: [2] mb_strlen(): Unknown encoding &quot;&quot; D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 2581 行.
+NOTIC: [2] mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 652 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002021s ]
+
+[ 2017-07-09T16:13:35+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/email/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+NOTIC: [2] mb_strlen(): Unknown encoding &quot;&quot; D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 2546 行.
+NOTIC: [2] mb_strlen(): Unknown encoding &quot;&quot; D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 2581 行.
+NOTIC: [2] mb_strlen(): Unknown encoding &quot;&quot; D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 2546 行.
+NOTIC: [2] mb_strlen(): Unknown encoding &quot;&quot; D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 2581 行.
+NOTIC: [2] mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 652 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001733s ]
+
+[ 2017-07-09T16:19:36+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/email/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002064s ]
+NOTIC: [2] mb_strlen(): Unknown encoding &quot;&quot; D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 2546 行.
+NOTIC: [2] mb_strlen(): Unknown encoding &quot;&quot; D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 2581 行.
+NOTIC: [2] mb_strlen(): Unknown encoding &quot;&quot; D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 2546 行.
+NOTIC: [2] mb_strlen(): Unknown encoding &quot;&quot; D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 2581 行.
+NOTIC: [2] mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 652 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002209s ]
+
+[ 2017-07-09T16:19:41+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/email/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+NOTIC: [2] mb_strlen(): Unknown encoding &quot;&quot; D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 2546 行.
+NOTIC: [2] mb_strlen(): Unknown encoding &quot;&quot; D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 2581 行.
+NOTIC: [2] mb_strlen(): Unknown encoding &quot;&quot; D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 2546 行.
+NOTIC: [2] mb_strlen(): Unknown encoding &quot;&quot; D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 2581 行.
+NOTIC: [2] mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.phpmailer.php 第 652 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001819s ]
+
+[ 2017-07-09T16:21:35+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/email/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+NOTIC: [2] stream_socket_client():  D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.smtp.php 第 280 行.
+NOTIC: [2] stream_socket_client():  D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.smtp.php 第 280 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2017-07-09T16:21:38+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/email/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [2] stream_socket_client():  D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.smtp.php 第 280 行.
+NOTIC: [2] stream_socket_client():  D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Vendor\PHPMailer\class.smtp.php 第 280 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2017-07-09T19:51:06+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/center/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0864s ]
+SQL: SELECT * FROM `center` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017356s ]
+

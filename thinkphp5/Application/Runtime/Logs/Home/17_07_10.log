@@ -1,0 +1,857 @@
+[ 2017-07-10T10:12:37+08:00 ] 127.0.0.1 /thinkphp5/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-07-10T10:12:48+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/email/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2017-07-10T10:13:21+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/email/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001526s ]
+
+[ 2017-07-10T10:17:53+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/getusername
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0627s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2017-07-10T10:18:14+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/gettel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `user` WHERE `tel` = '18860386978' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2017-07-10T10:18:21+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/getemail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0165s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `user` WHERE `email` = '123@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2017-07-10T10:18:34+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/getusername
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'list' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001910s ]
+
+[ 2017-07-10T10:18:41+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/gettel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `user` WHERE `tel` = '18860386979' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2017-07-10T10:18:45+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/getemail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `user` WHERE `email` = '123@qqcom' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002017s ]
+
+[ 2017-07-10T10:18:52+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php on line 8 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0127s ]
+SQL: INSERT INTO `user` (`username`,`password`,`tel`,`email`,`city`,`reg_time`,`last_time`) VALUES ('list','e10adc3949ba59abbe56e057f20f883e','18860386979','123@qqcom','郑州','1499653132','1499653132') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2017-07-10T10:18:59+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php on line 8 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0134s ]
+SQL: INSERT INTO `user` (`username`,`password`,`tel`,`email`,`city`,`reg_time`,`last_time`) VALUES ('list','e10adc3949ba59abbe56e057f20f883e','18860386979','123@qqcom','郑州','1499653139','1499653139') [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001783s ]
+
+[ 2017-07-10T10:19:04+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php on line 8 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0132s ]
+SQL: INSERT INTO `user` (`username`,`password`,`tel`,`email`,`city`,`reg_time`,`last_time`) VALUES ('list','e10adc3949ba59abbe56e057f20f883e','18860386979','123@qqcom','郑州','1499653144','1499653144') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-10T10:20:26+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/getusername
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `user` WHERE `username` = '111' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2017-07-10T10:20:38+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/gettel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `user` WHERE `tel` = '12345678909' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2017-07-10T10:20:44+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/getemail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@cc.cc' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2017-07-10T10:20:48+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php on line 8 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined index: att D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php 第 13 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0139s ]
+SQL: INSERT INTO `user` (`username`,`password`,`tel`,`email`,`city`,`reg_time`,`last_time`) VALUES ('111','e10adc3949ba59abbe56e057f20f883e','12345678909','12@cc.cc',NULL,'1499653248','1499653248') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2017-07-10T10:20:54+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php on line 8 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined index: att D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php 第 13 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0140s ]
+SQL: INSERT INTO `user` (`username`,`password`,`tel`,`email`,`city`,`reg_time`,`last_time`) VALUES ('111','e10adc3949ba59abbe56e057f20f883e','12345678909','12@cc.cc',NULL,'1499653254','1499653254') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2017-07-10T10:21:17+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php on line 8 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined index: att D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php 第 13 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1016s ]
+SQL: INSERT INTO `user` (`username`,`password`,`tel`,`email`,`city`,`reg_time`,`last_time`) VALUES ('111','e10adc3949ba59abbe56e057f20f883e','12345678909','12@cc.cc',NULL,'1499653277','1499653277') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2017-07-10T10:21:20+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php on line 8 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined index: att D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php 第 13 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0122s ]
+SQL: INSERT INTO `user` (`username`,`password`,`tel`,`email`,`city`,`reg_time`,`last_time`) VALUES ('111','e10adc3949ba59abbe56e057f20f883e','12345678909','12@cc.cc',NULL,'1499653280','1499653280') [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001872s ]
+
+[ 2017-07-10T10:22:22+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php on line 8 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined index: att D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php 第 13 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0138s ]
+SQL: INSERT INTO `user` (`username`,`password`,`tel`,`email`,`city`,`reg_time`,`last_time`) VALUES ('111','e10adc3949ba59abbe56e057f20f883e','12345678909','12@cc.cc',NULL,'1499653342','1499653342') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001798s ]
+
+[ 2017-07-10T10:22:28+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/getusername
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0144s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `user` WHERE `username` = '11' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001963s ]
+
+[ 2017-07-10T10:22:43+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/gettel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `user` WHERE `tel` = '18860386977' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002042s ]
+
+[ 2017-07-10T10:22:59+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/getemail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `user` WHERE `email` = '11@qqcom' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001828s ]
+
+[ 2017-07-10T10:23:03+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php on line 8 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0124s ]
+SQL: INSERT INTO `user` (`username`,`password`,`tel`,`email`,`city`,`reg_time`,`last_time`) VALUES ('11','c8ebeb11305fb42343aec8fa393647da','18860386977','11@qqcom','郑州','1499653383','1499653383') [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001860s ]
+
+[ 2017-07-10T10:23:07+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php on line 8 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined index: att D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php 第 13 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0134s ]
+SQL: INSERT INTO `user` (`username`,`password`,`tel`,`email`,`city`,`reg_time`,`last_time`) VALUES ('1','c4ca4238a0b923820dcc509a6f75849b','1','1',NULL,'1499653387','1499653387') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001787s ]
+
+[ 2017-07-10T10:25:45+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php on line 8 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined index: att D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php 第 13 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0136s ]
+SQL: INSERT INTO `user` (`username`,`password`,`tel`,`email`,`city`,`reg_time`,`last_time`) VALUES ('1','c4ca4238a0b923820dcc509a6f75849b','1','1',NULL,'1499653545','1499653545') [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001957s ]
+
+[ 2017-07-10T10:25:49+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/register/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php on line 8 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined index: att D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php 第 13 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\RegisterController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0129s ]
+SQL: INSERT INTO `user` (`username`,`password`,`tel`,`email`,`city`,`reg_time`,`last_time`) VALUES ('1','c4ca4238a0b923820dcc509a6f75849b','1','1',NULL,'1499653549','1499653549') [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001983s ]
+
+[ 2017-07-10T11:47:49+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/center/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0561s ]
+SQL: SELECT * FROM `center` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002137s ]
+
+[ 2017-07-10T14:08:30+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/center/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0925s ]
+SQL: SELECT * FROM `center` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016872s ]
+
+[ 2017-07-10T14:09:02+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/center/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `center` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001810s ]
+
+[ 2017-07-10T14:19:05+08:00 ] 127.0.0.1 /thinkphp5/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-07-10T14:19:17+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/center/images
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-07-10T14:19:50+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/center/images
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-07-10T14:20:46+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/center/images
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0139s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\CenterController.class.php on line 19 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2017-07-10T14:20:58+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/center/images
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0094s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\CenterController.class.php on line 19 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2017-07-10T14:23:28+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/center/images
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0088s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\CenterController.class.php on line 19 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2017-07-10T14:25:00+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\UploadController.class.php on line 10 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2017-07-10T14:26:56+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0099s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\UploadController.class.php on line 10 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2017-07-10T14:29:09+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0137s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\UploadController.class.php on line 10 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2017-07-10T14:29:24+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0068s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\UploadController.class.php on line 10 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2017-07-10T14:30:46+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0137s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\UploadController.class.php on line 11 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-07-10T14:37:05+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0105s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\UploadController.class.php on line 11 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2017-07-10T14:38:33+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002662s ]
+
+[ 2017-07-10T14:45:54+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2017-07-10T14:46:55+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2017-07-10T14:47:13+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2017-07-10T14:47:31+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2017-07-10T14:48:10+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2017-07-10T14:48:52+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2017-07-10T14:49:49+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2017-07-10T14:50:42+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0142s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\UploadController.class.php on line 16 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0056s ]
+SQL: INSERT INTO `article` (`img`,`add_time`) VALUES ('./Public/Uploads/2017-07-10/596323c239cdb.jpg,./Public/Uploads/2017-07-10/596323c244719.jpg','1499669442') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2017-07-10T14:51:34+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0099s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\UploadController.class.php on line 16 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2017-07-10T14:53:15+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0123s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\UploadController.class.php on line 16 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0068s ]
+SQL: INSERT INTO `article` (`img`,`add_time`) VALUES ('./Public/Uploads/2017-07-10/5963245b2cc8c.jpg,./Public/Uploads/2017-07-10/5963245b3b497.jpg','1499669595') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2017-07-10T14:54:52+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0106s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\UploadController.class.php on line 16 and defined D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\WWW\laravel\thinkphp5\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0059s ]
+SQL: INSERT INTO `article` (`article_title`,`article_content`,`img`,`add_time`) VALUES ('11111111','钱钱钱钱钱钱钱钱钱钱钱钱钱钱钱钱钱钱钱','./Public/Uploads/2017-07-10/596324bc1f021.jpg,./Public/Uploads/2017-07-10/596324bc24583.jpg','1499669692') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2017-07-10T14:57:34+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/center/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `center` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2017-07-10T17:15:57+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/user/forget
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002140s ]
+
+[ 2017-07-10T17:19:20+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/user/forget
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0793s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getForget(), called in D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Controller\UserController.class.php on line 20 and defined D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Model\UserModel.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined variable: username D:\phpStudy\WWW\laravel\thinkphp5\Application\Home\Model\UserModel.class.php 第 38 行.
+SQL: SELECT * FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001822s ]
+
+[ 2017-07-10T17:20:02+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/user/forget
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2017-07-10T17:24:51+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/user/forget
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2017-07-10T21:10:10+08:00 ] 127.0.0.1 /thinkphp5/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-07-10T21:10:30+08:00 ] 127.0.0.1 /thinkphp5/index.php/home/email/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
